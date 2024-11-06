@@ -4,6 +4,8 @@ from collections import deque
 
 
 def canUnlockAll(boxes):
+    """Checks boxes for keys that can unlock them"""
+
     n = len(boxes)
     opened = set()
     queue = deque([0])
