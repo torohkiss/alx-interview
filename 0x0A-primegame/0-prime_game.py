@@ -14,6 +14,8 @@ def is_prime(n):
 
 
 def calculate_primes_up_to(n):
+    """Calculating the prime numbers to a number"""
+
     sieve = [True] * (n + 1)
     sieve[0] = sieve[1] = False
 
@@ -25,6 +27,8 @@ def calculate_primes_up_to(n):
 
 
 def isWinner(x, nums):
+    """Checking for the winner"""
+
     if not nums or x < 1:
         return None
 
